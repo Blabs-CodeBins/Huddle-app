@@ -1,0 +1,23 @@
+sales_workflow-main
+├── Controllers
+│   └── Sales_workflow.php
+├── language
+│   └── English
+│       └── sales_workflow_lang.php
+├── models
+│   └── Sales_workflow_model.php
+├── View
+│   ├── Lead_capture
+│   │   ├── initial_task_creation.php
+│   │   └── index.html
+│   ├── Follow_up
+│   │   ├── initial_contact.php
+│   │   ├── various_reply_scenarios.php
+│   │   └── index.html
+│   ├── Reporting_analytics
+│   │   ├── reports.php
+│   │   └── index.html
+│   └── index.html
+├── sales_workflow.php
+├── install.php
+└── index.html

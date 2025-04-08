@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap List</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .virtual-repeat-scroller {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .account-list-item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .account-avatar {
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .account-details {
+      flex-grow: 1;
+    }
+    .account-title {
+      font-weight: bold;
+    }
+    .account-subtitle {
+      font-size: 0.9em;
+      color: #777;
+    }
+    .account-time {
+      margin-left: auto;
+      white-space: nowrap;
+    }
+    .list-group-item{
+      border-left: none;
+      border-right: none;
+      border-radius: 0px !important;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="virtual-repeat-scroller">
+    <div class="entity-count text-muted">2310 accounts by last interaction (desc.)</div>
+    
+    <!-- Account 1 -->
+    <div class="account-list-item active">
+      <div class="account-avatar" style="background-image: url('https://img.fullcontact.com/static/dfa0ab6849d409d61e802c732b634255_feb2b5df6e5f5443c08c36d344e559a7b643f145eaaa6c46ccd06ed5efd1f9cb');"></div>
+      <div class="account-details">
+        <div class="account-title" title="Test1">Test1</div>
+        <div class="account-subtitle" title="Inquiry About Your WordPress Development Services">Inquiry About Your WordPress Development Services</div>
+        <div class="account-subtitle" title="Vikash1">Vikash1</div>
+      </div>
+      <div class="account-time" title="Thu 18 July 2024 at 1:30 PM">18 Jul</div>
+    </div>
+    
+    <!-- Account 2 -->
+    <div class="account-list-item">
+      <div class="account-avatar" style="background-image: url('https://lib.salesflare.com/avatars/avatar_company_default_2.png');"></div>
+      <div class="account-details">
+        <div class="account-title" title="Hung Than">Hung Than</div>
+        <div class="account-subtitle" title="[HWG - Testing] New Bug created by Anuradha Mattaparthi (anuradha.businesslabs@gmail.com)">[HWG - Testing] New Bug created by Anuradha Mattaparthi (anuradha.businesslabs@gmail.com)</div>
+        <div class="account-subtitle" title="Userback">Userback</div>
+      </div>
+      <div class="account-time" title="Fri 19 July 2024 at 3:35 PM">3:35 PM</div>
+    </div>
+    
+    <!-- Account 3 -->
+    <div class="account-list-item">
+      <div class="account-avatar" style="background-image: url('https://logo.clearbit.com/nwida.org');"></div>
+      <div class="account-details">
+        <div class="account-title" title="NWIDA">NWIDA</div>
+        <div class="account-subtitle" title="The latest news from NWIDA">The latest news from NWIDA</div>
+        <div class="account-subtitle" title="Adam Wolf">Adam Wolf</div>
+      </div>
+      <div class="account-time" title="Fri 19 July 2024 at 1:53 PM">1:53 PM</div>
+    </div>
+
+    <!-- Other accounts header -->
+    <div class="md-subheader">
+      <div class="md-subheader-inner">
+        <div class="md-subheader-content">
+          <span class="status">Other accounts</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Account 4 -->
+    <div class="account-list-item">
+      <div class="account-avatar" style="background-image: url('https://example.com/avatar4.png');"></div>
+      <div class="account-details">
+        <div class="account-title" title="Example Account">Example Account</div>
+        <div class="account-subtitle" title="Example Interaction">Example Interaction</div>
+        <div class="account-subtitle" title="Example Person">Example Person</div>
+      </div>
+      <div class="account-time" title="Fri 19 July 2024 at 2:00 PM">2:00 PM</div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

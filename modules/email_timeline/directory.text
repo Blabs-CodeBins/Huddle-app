@@ -1,0 +1,18 @@
+email_timeline
+|-- controllers
+|   |-- Email_timeline.php
+|   |-- index.html
+|-- language
+|   |-- English
+|       |-- email_timeline_lang.php
+|       |-- index.html
+|-- models
+|   |-- Email_timeline_model.php
+|   |-- index.html
+|-- views
+|   |-- index.php
+|   |-- view.php
+|   |-- index.html
+|-- install.php
+|-- email_timeline.php
+|-- index.html
